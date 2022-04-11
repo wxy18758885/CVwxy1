@@ -1,0 +1,162 @@
+
+*{
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    
+    font-weight: 500;
+}
+.t{
+    background-image: url("./bjt.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity:0.9;
+    
+}
+.top{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.top li{
+    display: inline-block;
+} 
+.top a{
+    color: #00bff3;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    padding: 0.5rem 1rem;
+    outline-width:10%;
+    outline-style: dashed;
+    outline-color: aliceblue;
+    color: aliceblue;
+}
+  
+
+.top a:hover {
+    box-shadow: #c5e5ed;
+    color: #ff583d;
+    
+}
+.active {
+    color: #ff3de5;
+    background-color: #c5e5ed;
+    background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
+}
+  
+
+.headz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headz .p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: aliceblue;
+
+}
+.headz .jb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+.headz .jb .xx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.headz .jb .xx p{
+    margin-right: 20px;
+    flex-wrap: nowrap;
+
+}
+.zj{
+    margin: 5% 10%;
+}
+.active {
+    color: #ff583d;
+    background-color: #c5e5ed;
+    background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
+}
+.jj{
+    
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.jy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 10%;
+    font-size: 30px;
+    color: black;
+
+}
+.jy li{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.jy li img{
+    width: 251px;
+    height: 289px;
+
+}
+.hb{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5% 10%;
+}
+.hb li{
+    width: 25%;
+    height: 25%;
+}
+.hb li img{
+    padding: absolute;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow:0 0 50px 30px #ffffff inset;
+    
+}
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.yj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yj i{
+    width: 1397px;
+    height: 1px;
+    border: 1px solid #1044c0;
+    margin: 63px auto 50px;
+}
+
+.yj p{
+    margin-right: 10px;
+    font-size: 19px;
+    color: #535b6e;
+    padding-left: 118px;
+}
